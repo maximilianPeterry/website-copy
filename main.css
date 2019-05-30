@@ -1,0 +1,59 @@
+main, header, section, footer {
+    margin: 0;
+    padding: rem-calc(20);
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+Main {
+    background-color: #000000;
+    width: 100px;
+    height:100px;
+}
+
+.Header {
+    background-color: #87cefa;
+    width: 100px;
+    height: 100px;
+}
+
+.SideBar {
+    background-color: darksalmon;
+}
+
+.img-1 {
+    background-color: pink;
+}
+
+.TextboxButtons {
+    background-color: teal;
+}
+
+.img-2 {
+    background-color: aquamarine;
+}
+
+.AnotherTextboxButtons {
+    background-color: lavender;
+}
+
+.img-3 {
+    background-color: rosybrown;
+}
+
+.img-4 {
+    background-color: thistle;
+}
+
+.img-5 {
+    background-color: plum;
+}
+
+.img-6 {
+    background-color: coral;
+}
+
+.footer {
+    border: 1px solid #000000;
+    background-color: midnightblue;
+}
