@@ -1,50 +1,15 @@
-.item-a {
-    grid-area: header;
-}
-.item-b {
-    grid-area: searchBar;
-}
-
-.item-c {
-    grid-area: 1;
-}
-
-.item-d {
-    grid-area: 2;
-}
-
-.item-e {
-    grid-area: 3;
-}
-
-.item-f {
-    grid-area: 4;
-}
-
-.item-g {
-    grid-area: 5;
-}
-
-.item-h {
-    grid-area: 6;
-}
-
-.item-i {
-    grid-area: 7;
-}
-
-.item-j {
-    grid-area: 8
-}
-
-.item-k{
-    grid-area: footer;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .container{
+    height: 90vh;
+    margin: 2rem;
     display: grid;
-    grid-template-columns: [col1] 1fr;
-    grid-template-rows: auto;
+    column-gap: 10px;
+    grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
+    grid-template-rows: [row1] 1fr [row2] 1fr [row3] 1fr;
     grid-template-areas:
     "header"
     "searchBar"
@@ -56,11 +21,110 @@
     "6"
     "7"
     "8"
-    
+    "footer footer footer";
+}
 
+.cell {
+    /* color: white; */
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
 
+.item-a {
+    grid-area: header;
+    background: blueviolet;
+    height: 60px;
+}
+.item-b {
+    grid-area: searchBar;
+    background: cornflowerblue;
+    height: 61px;
+    padding: 8px;
+}
+.img1 {
+    width: 100%;
+}
+
+.item-c {
+    grid-area: 1;
+    background: coral;
+    padding: 0;
+}
+.bBloss {
+    width: 231px;
+    height: 24px;
+    margin: 0px 48px 8px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.blossDescript {
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    display: block;
 
 }
+.item-d {
+    grid-area: 2;
+    background: lavender;
+    height: 236px;
+    padding: 24px;
+
+}
+
+.item-e {
+    grid-area: 3;
+    background: honeydew;
+    height: 267.938px;
+    padding: 24px;
+}
+
+.item-f {
+    grid-area: 4;
+    background: salmon;
+    height: 124px;
+    padding: 24px;
+
+}
+
+.item-g {
+    grid-area: 5;
+    background: thistle;
+    height: 267.938px;
+    padding: 24px;
+}
+
+.item-h {
+    grid-area: 6;
+    background: mediumslateblue;
+    height: 236.203px;
+    padding: 24px
+}
+
+.item-i {
+    grid-area: 7;
+    background: wheat;
+    height: 236.203px;
+    padding: 24px;
+}
+
+.item-j {
+    grid-area: 8;
+    background: lavenderblush;
+    height: 236.203px;
+    padding: 24px
+}
+
+.item-k{
+    grid-area: footer;
+    background: mintcream;
+    height: 257px;
+    padding: 24px;
+}
+
+
 
 
 
